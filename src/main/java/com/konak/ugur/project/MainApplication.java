@@ -14,6 +14,9 @@ public class MainApplication {
 
         final String FILE_DIRECTORY = System.getProperty("user.dir").concat(File.separator).concat("userFiles");
 
+        File directoryCreator = new File(FILE_DIRECTORY);
+        directoryCreator.mkdir();
+
         System.out.println("Creator : Uğur KONAK (VODAFONE TURKEY)");
         System.out.println("This application is created to show you the files in your directory, " +
                 "add new file to your directory, " +

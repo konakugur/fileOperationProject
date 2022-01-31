@@ -38,7 +38,7 @@ public class SearchFileOperation implements Operation {
 
 
                 if ( result != -1 ) {
-                    System.out.println("File found in your directory. File no : " + result + 1);
+                    System.out.println("File found in your directory. File no : " + (result + 1));
                 } else {
                     System.out.println("No file found with this name.");
                 }
